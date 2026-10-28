@@ -1,0 +1,81 @@
+# ==========================================
+# Visual Studio / IDE
+# ==========================================
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# ==========================================
+# .NET build output
+# ==========================================
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# ==========================================
+# NuGet
+# ==========================================
+*.nupkg
+*.snupkg
+packages/
+.nuget/packages/
+
+# ==========================================
+# Local configuration and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
+
+*.pfx
+*.p12
+*.pem
+*.key
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# ==========================================
+# Docker / Kubernetes local artifacts
+# ==========================================
+docker-compose.override.yml
+compose.override.yaml
+
+# Local Kubernetes secrets (not templates)
+**/*-secret.local.yaml
+**/*-secrets.local.yaml
+
+# ==========================================
+# OS
+# ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+/.vs/slnx.sqlite
+/ServiceA/obj/Debug/net9.0/ServiceA.AssemblyInfoInputs.cache
+/ServiceA/obj/Release/net9.0/ServiceA.AssemblyInfoInputs.cache
+/ServiceB/obj/Debug/net9.0/ServiceB.AssemblyInfoInputs.cache
+/ServiceB/obj/Release/net9.0/ServiceB.AssemblyInfoInputs.cache
